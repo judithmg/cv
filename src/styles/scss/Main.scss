@@ -1,0 +1,43 @@
+@import "./mixins";
+
+.main-box {
+  margin: 100px 20px;
+}
+.--left {
+  top: auto;
+  position: static;
+  .main-box {
+    margin: 100px 20px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  main {
+    margin: 0 auto;
+    @include flex(column, center, center);
+  }
+
+  .main__body {
+    @include flex(row, center, flex-start);
+    max-width: 80vw;
+
+    .main__column {
+      @include flex(column, flex-start, center);
+      margin: 0 auto;
+    }
+    .--left {
+      width: 27%;
+      position: sticky;
+      top: 0;
+    }
+
+    .--right {
+      width: 73%;
+    }
+
+    .main-box {
+      margin: 0 0 50px 0;
+      width: 90%;
+    }
+  }
+}

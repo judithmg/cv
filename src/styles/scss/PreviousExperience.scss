@@ -1,0 +1,8 @@
+@import "./mixins";
+
+.previous__container {
+  @include flex(column, center, flex-start);
+  span {
+    text-shadow: 1px 1px 0px #ee0a97;
+  }
+}

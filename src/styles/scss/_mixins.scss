@@ -1,0 +1,52 @@
+@mixin flex($direction, $justify, $align) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin floating-animation {
+  @keyframes float {
+    0% {
+      transform: translatey(0px);
+    }
+    50% {
+      transform: translatey(-20px);
+    }
+    100% {
+      transform: translatey(0px);
+    }
+  }
+  animation: float 3s ease-in-out infinite;
+}
+@mixin jumping-animation {
+  @keyframes jump {
+    0% {
+      transform: translatey(0px);
+    }
+    20% {
+      transform: translatey(-20px);
+    }
+    40% {
+      transform: translatey(-10px);
+    }
+    70% {
+      transform: translatey(-20px);
+    }
+    100% {
+      transform: translatey(-10px);
+    }
+  }
+  animation: jump 1s ease-in-out infinite;
+}
+
+@mixin hiding {
+  visibility: hidden;
+  transition: visibility 0s, opacity 0.5s linear;
+  opacity: 0;
+}
+
+@mixin appearing {
+  visibility: visible;
+  opacity: 1;
+}
