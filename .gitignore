@@ -24,3 +24,6 @@ yarn-error.log*
 
 # Local Netlify folder
 .netlify
+.firebaserc
+firebase.json
+firebase-hosting-pull-request.yml
