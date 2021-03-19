@@ -4,6 +4,12 @@
   position: relative;
   width: 350px;
   margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  button {
+    font-size: 8px;
+  }
   .project-img {
     opacity: 50%;
     width: 350px;
@@ -18,21 +24,6 @@
     &:hover + button {
       @include appearing;
       z-index: 99;
-    }
-  }
-  button {
-    @include hiding;
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-    button {
-      font-size: 13px;
-      margin: 0 20px;
     }
   }
 }
