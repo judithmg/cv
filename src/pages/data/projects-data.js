@@ -29,7 +29,7 @@ const projectsData = [
     title: 'GAME OF LIFE',
     technologies: 'HTML, CSS, JS',
     info: 'The Game of Life is a cellular automaton devised by the British mathematician John Horton Conway in 1970. This Javascript implementation follows its rules, allows players to draw their patterns or to create random ones.',
-    demoLink: 'https://app.netlify.com/sites/judith-gameoflife',
+    demoLink: 'https://judith-gameoflife.netlify.app/',
     codeLink: 'https://github.com/judithmg/game-of-life',
     previewLink: '/images/gol.png',
     modalImg: 'https://i.imgur.com/4YUCRjo.png',
