@@ -20,11 +20,6 @@
     &:hover {
       opacity: 70%;
     }
-
-    &:hover + button {
-      @include appearing;
-      z-index: 99;
-    }
   }
 }
 
