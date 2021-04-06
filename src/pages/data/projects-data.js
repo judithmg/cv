@@ -3,7 +3,9 @@ const projectsData = [
     title: 'PASAPALABRA',
     technologies: 'HTML, CSS, JS',
     info: 'Inspired Star Wars Pasapalabra game build during the Skylab Coders Academy precourse',
-    previewLink: '/images/pas.png',
+    demoLink: 'https://github.com/judithmg',
+    codeLink: 'https://github.com/judithmg',
+    previewLink: 'https://i.imgur.com/SEwnTE5.png',
     modalImg: 'https://i.imgur.com/JKRoEU2.png',
 
   },
@@ -11,7 +13,9 @@ const projectsData = [
     title: 'CALCULATOR',
     technologies: 'HTML, CSS, JS',
     info: 'Simple calculator build during the Skylab Coders Academy precourse',
-    previewLink: '/images/calc.png',
+    demoLink: 'https://github.com/judithmg',
+    codeLink: 'https://github.com/judithmg',
+    previewLink: 'https://i.imgur.com/8AW0epR.png',
     modalImg: 'https://i.imgur.com/2m6DLG5.png',
 
   },
@@ -19,9 +23,9 @@ const projectsData = [
     title: 'RAKUTEN TV',
     technologies: 'HTML, CSS, JS',
     info: "Rakuten's dashboard an about page for a single TV show mock, build during my first week at Skylab Coders Academy",
-    demoLink: 'https://judith-rakuten.netlify.app/',
-    codeLink: 'https://github.com/judithmg/rakuten',
-    previewLink: '/images/rak.png',
+    codeLink: 'https://github.com/judithmg',
+    demoLink: 'https://github.com/judithmg',
+    previewLink: 'https://i.imgur.com/pShQEbC.png',
     modalImg: 'https://i.imgur.com/ZtsCVYB.png',
 
   },
@@ -29,9 +33,9 @@ const projectsData = [
     title: 'GAME OF LIFE',
     technologies: 'HTML, CSS, JS',
     info: 'The Game of Life is a cellular automaton devised by the British mathematician John Horton Conway in 1970. This Javascript implementation follows its rules, allows players to draw their patterns or to create random ones.',
-    demoLink: 'https://judith-gameoflife.netlify.app/',
-    codeLink: 'https://github.com/judithmg/game-of-life',
-    previewLink: '/images/gol.png',
+    demoLink: 'https://github.com/judithmg',
+    codeLink: 'https://github.com/judithmg',
+    previewLink: 'https://i.imgur.com/EOlP9w4.png',
     modalImg: 'https://i.imgur.com/4YUCRjo.png',
 
   },
@@ -39,9 +43,9 @@ const projectsData = [
     title: 'ANIME PICKER',
     technologies: 'HTML, CSS, JS',
     info: 'To put into practice fetching data from public APIs and the use of Javascript Promises, this app that suggests users different animes based on their input was developed.',
-    demoLink: 'https://judith-animepicker.netlify.app/',
-    codeLink: 'https://github.com/judithmg/anime-picker',
-    previewLink: '/images/ani.png',
+    demoLink: 'https://github.com/judithmg',
+    codeLink: 'https://github.com/judithmg',
+    previewLink: 'https://i.imgur.com/jg6GsP3.png',
     modalImg: 'https://i.imgur.com/u9ZxrjW.png',
 
   },
@@ -49,9 +53,9 @@ const projectsData = [
     title: 'POKÉDEX',
     technologies: 'HTML, CSS, JS',
     info: 'Pokédex using PokéApi as source for data.',
-    demoLink: 'https://judith-pokelista.netlify.app/',
-    codeLink: 'https://github.com/judithmg/html-pokedex',
-    previewLink: '/images/poke.png',
+    demoLink: 'https://github.com/judithmg',
+    codeLink: 'https://github.com/judithmg',
+    previewLink: 'https://i.imgur.com/pngtl93.png',
     modalImg: 'https://i.imgur.com/8wwJu00.png',
 
   },
@@ -59,7 +63,9 @@ const projectsData = [
     title: 'SOCIO.LEGAL',
     technologies: 'React, Redux, Mongoose, Postman',
     info: 'Group project build at Skylab Coders with my classmates Nil Rivera, Álvaro Valladares and Xi Zhou. Socio Legal allows the user to manage their data on different transactions.',
-    previewLink: '/images/socio.png',
+    demoLink: 'https://github.com/judithmg',
+    codeLink: 'https://github.com/judithmg',
+    previewLink: 'https://i.imgur.com/Ckx7JqZ.png',
     modalImg: 'https://i.imgur.com/44Mialy.png',
 
   },
@@ -67,22 +73,11 @@ const projectsData = [
     title: 'THIS PORTFOLIO',
     technologies: 'React, Sass',
     info: 'Portfolio build to showcase my abilities.',
-    demoLink: 'https://judith-cv.netlify.app',
-    codeLink: 'https://github.com/judithmg/cv',
-    previewLink: '/images/cv.png',
+    demoLink: 'https://github.com/judithmg',
+    codeLink: 'https://github.com/judithmg',
+    previewLink: 'https://i.imgur.com/f3FfR8Q.png',
     modalImg: 'https://i.imgur.com/PPovVFj.png',
-
   },
-  {
-    title: 'PHASER GAME',
-    technologies: 'HTML, Phaser, TypeScript',
-    info: 'Phaser game made for fun. There was an inner joke behind it, you might not get it (sorry!)',
-    codeLink: 'https://github.com/judithmg/phaserTalk',
-    previewLink: '/images/phaser.png',
-    modalImg: '/images/phas2.png',
-
-  },
-
 ];
 
 export default projectsData;
