@@ -10,16 +10,12 @@ export default function ProjectInfo({ project }) {
   return (
     <>
       <div className="project-img__container">
-
-        <button
-          type="button"
-          className="nes-btn is-success"
+        <img
+          src={project.previewLink}
+          alt="project"
+          className="project-img"
           onClick={toggle}
-
-        >
-          {project.title.toUpperCase()}
-        </button>
-
+        />
       </div>
       <Modal
         isShowing={isShowing}

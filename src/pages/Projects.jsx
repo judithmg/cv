@@ -8,7 +8,7 @@ export default function Projects() {
   return (
     <>
 
-      <section data-aos="fade-in" className="nes-container with-title main-box projects__container">
+      <section className="nes-container with-title main-box projects__container">
         <p className="title">Projects</p>
         <div className="projects__previews">
           {
