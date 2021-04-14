@@ -1,5 +1,5 @@
-import React from "react";
-import "../styles/scss/TechnologiesUsed.scss";
+import React from 'react';
+import '../styles/scss/TechnologiesUsed.scss';
 
 export default function TechnologiesUsed() {
   return (
@@ -20,7 +20,8 @@ export default function TechnologiesUsed() {
           align="center"
           alt="css"
           src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/css.svg"
-        />{" "}
+        />
+        {' '}
         <img
           width="44px"
           align="center"
@@ -50,7 +51,8 @@ export default function TechnologiesUsed() {
           align="center"
           alt="javascript"
           src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/javascript.svg"
-        />{" "}
+        />
+        {' '}
         <img
           width="44px"
           align="center"
@@ -98,7 +100,7 @@ export default function TechnologiesUsed() {
           align="center"
           alt="firebase"
           src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/firebase.svg"
-        />{" "}
+        />
         <img
           width="44px"
           align="center"

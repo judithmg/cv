@@ -1,5 +1,5 @@
 export default [
-  "Mastering React",
-  "Learning Typescript",
-  "Personal React Projects",
+  'Mastering React',
+  'Learning Typescript',
+  'Personal React Projects',
 ];
