@@ -8,7 +8,7 @@ export default function Backend() {
 
       <div className="backend__progress">
         <p>Node.js</p>
-        <progress className="nes-progress is-warning" value="75" max="100" />
+        <progress className="nes-progress is-success" value="85" max="100" />
       </div>
 
     </section>

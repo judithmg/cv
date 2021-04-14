@@ -15,9 +15,12 @@ export default function Frontend() {
         <progress className="nes-progress is-success" value="90" max="100" />
       </div>
       <div className="frontend__progress">
-        <p>Javascript</p>
-        <progress className="nes-progress is-warning" value="85" max="100" />
-
+        <p>JavaScript</p>
+        <progress className="nes-progress is-success" value="85" max="100" />
+      </div>
+      <div className="frontend__progress">
+        <p>TypeScript</p>
+        <progress className="nes-progress is-warning" value="65" max="100" />
       </div>
 
     </section>
