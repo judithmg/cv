@@ -98,6 +98,16 @@ const projectsData = [
     modalImg: '/images/itachi.png',
     previewLink: '/images/itachi-bg.png',
   },
+  {
+    title: "MWC NUWE'S HACKATHON",
+    technologies: 'ReactJS, TypeScript, SCSS',
+    info: "Build for Nuwe's June Hackathon, this project followed was a finalist at Nuwe's Hackathon which got me a chance to go to Mobile's World Congress 2021 in Barcelona to take part in the final round, a 5 hours group project.",
+    demoLink: 'https://judith-mwc.netlify.app/',
+    codeLink: 'https://github.com/judithmg/mwc-hackaton',
+    previewLink: '/images/mwc.png',
+    modalImg: '/images/mwc-bg.png',
+  },
+
 ];
 
 export default projectsData;
