@@ -1,7 +1,7 @@
 /* eslint-disable react/no-array-index-key */
 import React from 'react';
 
-import currently from './data/currently';
+import currently from '../constants/currently';
 import '../styles/scss/Currently.scss';
 
 export default function Contact() {
