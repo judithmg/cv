@@ -1,10 +1,11 @@
 import React from 'react';
-import '../styles/scss/Footer.scss';
+import './Footer.scss';
+import { footer } from '../../constants';
 
 export default function Footer() {
   return (
     <footer>
-      <p>Judith Martínez | 2021</p>
+      <p>{footer}</p>
     </footer>
   );
 }

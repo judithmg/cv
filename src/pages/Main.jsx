@@ -15,7 +15,7 @@ import Backend from '../components/Progress/Backend';
 import Currently from './Currently';
 import Projects from '../components/MyProjects/Projects';
 
-import Footer from './Footer';
+import Footer from '../components/Footer/Footer';
 
 AOS.init();
 
