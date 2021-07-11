@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/scss/TechnologiesUsed.scss';
+import './TechnologiesUsed.scss';
 
 export default function TechnologiesUsed() {
   return (

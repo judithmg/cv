@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/scss/Social.scss';
+import './Social.scss';
 
 export default function Social() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/scss/PreviousExperience.scss';
+import './PreviousExperience.scss';
 
 export default function PreviousExperience() {
   return (

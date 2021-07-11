@@ -1,4 +1,4 @@
-@import "../scss/mixins.scss";
+@import "src/styles/index";
 
 .contact__info {
   @include flex(column, center, center);
