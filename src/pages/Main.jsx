@@ -13,9 +13,11 @@ import PreviousExperience from '../components/PreviousExperience/PreviousExperie
 import Frontend from '../components/Progress/Frontend';
 import Backend from '../components/Progress/Backend';
 import Currently from '../components/Currently/Currently';
+import Education from '../components/Education/Education';
 import Projects from '../components/MyProjects/Projects';
 
 import Footer from '../components/Footer/Footer';
+import DevExperience from '../components/DevExperience/DevExperience';
 
 AOS.init();
 
@@ -35,6 +37,8 @@ function MainComponent() {
             <Frontend />
             <Backend />
             <TechnologiesUsed />
+            <DevExperience />
+            <Education />
             <Currently />
             <PreviousExperience />
             <Projects />
