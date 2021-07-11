@@ -89,6 +89,15 @@ const projectsData = [
     previewLink: '/images/optc.png',
     modalImg: '/images/optc-bg.png',
   },
+  {
+    title: 'ITACHI LINKEDIN',
+    technologies: 'React, SCSS',
+    info: 'A clone of a UI Concept by Daniel Snows (https://danielsnows.com.br/), copied with his permission. The original design can be found on his YouTue account. This project was created for fun, and to play around with SCSS.',
+    demoLink: 'https://itachi-linkedin.netlify.app/',
+    codeLink: 'https://github.com/judithmg/itachi-linkedin',
+    modalImg: '/images/itachi.png',
+    previewLink: '/images/itachi-bg.png',
+  },
 ];
 
 export default projectsData;
