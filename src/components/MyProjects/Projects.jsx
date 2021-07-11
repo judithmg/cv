@@ -8,7 +8,10 @@ export default function Projects() {
   return (
     <section className="nes-container with-title main-box projects__container">
       <p className="title">Projects</p>
-      <div className="projects__previews">
+      <div
+        className="projects__previews"
+        data-aos="fade-in"
+      >
         {
             projectData.map((project) => (
               <ProjectInfo project={project} key={project.title} />
