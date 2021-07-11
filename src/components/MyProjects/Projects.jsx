@@ -11,9 +11,7 @@ export default function Projects() {
       <div className="projects__previews">
         {
             projectData.map((project) => (
-              <>
-                <ProjectInfo project={project} key={project.title} />
-              </>
+              <ProjectInfo project={project} key={project.title} />
             ))
 }
       </div>

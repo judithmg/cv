@@ -6,7 +6,7 @@ export default function MainContainer({ title, children }) {
     <section className="nes-container with-title main-box main-container__container" data-aos="fade-in">
       <p className="title">{title}</p>
       {children.map((el) => (
-        <div className="main-container__progress">
+        <div className="main-container__progress" key={el.title}>
           <p>{el.title}</p>
           <progress className="nes-progress is-success" value={el.value} max="100" />
         </div>

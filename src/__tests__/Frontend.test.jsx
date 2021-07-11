@@ -20,7 +20,7 @@ describe('Given a Frontend component', () => {
   });
 
   describe('When it is invoked', () => {
-    test('Then there should be a frontend__container section', () => {
+    test('Then there should be a main-container__progress section', () => {
       act(() => {
         render(
           <BrowserRouter>
@@ -30,7 +30,7 @@ describe('Given a Frontend component', () => {
         );
       });
 
-      const section = document.querySelector('.frontend__container');
+      const section = document.querySelector('.main-container__progress');
 
       expect(section).toBeTruthy();
     });

@@ -10,7 +10,7 @@ export default function HelloWorld() {
       <img src="https://i.imgur.com/Gly1BxR.png" alt="avatar" />
 
       <div className="nes-balloon from-left hello-world__text">
-        {helloWorld.map((el) => <p>{el}</p>)}
+        {helloWorld.map((el) => <p key={el}>{el}</p>)}
       </div>
     </section>
 
