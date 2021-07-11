@@ -6,6 +6,6 @@ This project was created with React and bootstrapped with [Create React App](htt
 
 Run `npm test` to launch the test runner.
 
-
+My portfolio is deployed in Netlify, and you can check it out [following this link](https://judith-cv.netlify.app/)!
 
 
