@@ -3,7 +3,7 @@ import { render, unmountComponentAtNode } from 'react-dom';
 import { act } from 'react-dom/test-utils';
 import { BrowserRouter } from 'react-router-dom';
 
-import Projects from '../pages/Projects';
+import Projects from '../components/MyProjects/Projects';
 
 describe('Given a Projects component', () => {
   let container = null;

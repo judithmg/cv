@@ -3,7 +3,7 @@ import { render, unmountComponentAtNode } from 'react-dom';
 import { act } from 'react-dom/test-utils';
 import { BrowserRouter } from 'react-router-dom';
 
-import Contact from '../pages/Contact';
+import Contact from '../components/Aside/Contact';
 
 describe('Given a Contact component', () => {
   let container = null;

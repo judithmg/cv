@@ -3,7 +3,7 @@ import { render, unmountComponentAtNode } from 'react-dom';
 import { act } from 'react-dom/test-utils';
 import { BrowserRouter } from 'react-router-dom';
 
-import TechnologiesUsed from '../pages/TechnologiesUsed';
+import TechnologiesUsed from '../components/TechnologiesUsed/TechnologiesUsed';
 
 describe('Given a TechnologiesUsed component', () => {
   let container = null;

@@ -3,7 +3,7 @@ import { render, unmountComponentAtNode } from 'react-dom';
 import { act } from 'react-dom/test-utils';
 import { BrowserRouter } from 'react-router-dom';
 
-import Frontend from '../pages/Frontend';
+import Frontend from '../components/Progress/Frontend';
 
 describe('Given a Frontend component', () => {
   let container = null;

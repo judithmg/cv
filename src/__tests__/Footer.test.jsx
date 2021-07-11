@@ -3,7 +3,7 @@ import { render, unmountComponentAtNode } from 'react-dom';
 import { act } from 'react-dom/test-utils';
 import { BrowserRouter } from 'react-router-dom';
 
-import Footer from '../pages/Footer';
+import Footer from '../components/Footer/Footer';
 
 describe('Given a Footer component', () => {
   let container = null;

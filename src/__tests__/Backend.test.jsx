@@ -3,7 +3,7 @@ import { render, unmountComponentAtNode } from 'react-dom';
 import { act } from 'react-dom/test-utils';
 import { BrowserRouter } from 'react-router-dom';
 
-import Backend from '../pages/Backend';
+import Backend from '../components/Progress/Backend';
 
 describe('Given a Backend component', () => {
   let container = null;
