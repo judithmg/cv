@@ -10,8 +10,8 @@ import TechnologiesUsed from './TechnologiesUsed';
 import Social from './Social';
 
 import PreviousExperience from './PreviousExperience';
-import Frontend from './Frontend';
-import Backend from './Backend';
+import Frontend from '../components/Progress/Frontend';
+import Backend from '../components/Progress/Backend';
 import Currently from './Currently';
 import Projects from './Projects';
 
