@@ -6,7 +6,7 @@ import ProjectInfo from './ProjectInfo';
 
 export default function Projects() {
   return (
-    <section className="nes-container with-title main-box projects__container">
+    <section className="nes-container with-title main-box projects__container" data-aos="fade-in">
       <p className="title">Projects</p>
       <div
         className="projects__previews"
