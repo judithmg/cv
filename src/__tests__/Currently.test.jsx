@@ -3,7 +3,7 @@ import { render, unmountComponentAtNode } from 'react-dom';
 import { act } from 'react-dom/test-utils';
 import { BrowserRouter } from 'react-router-dom';
 
-import Currently from '../pages/Currently';
+import Currently from '../components/Currently/Currently';
 
 describe('Given a Currently component', () => {
   let container = null;

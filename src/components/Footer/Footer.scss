@@ -1,0 +1,9 @@
+@import "src/styles/index";
+
+footer {
+  @include flex(row, center, center);
+  padding: 10px 0;
+  width: 100%;
+  background-color: #fff;
+  border-top: 5px solid #000;
+}

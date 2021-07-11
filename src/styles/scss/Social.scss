@@ -1,8 +1,0 @@
-@import "../scss/mixins.scss";
-
-.social__icons {
-  @include flex(row, center, center);
-  i {
-    margin: 0 20px;
-  }
-}

@@ -3,7 +3,7 @@ import { render, unmountComponentAtNode } from 'react-dom';
 import { act } from 'react-dom/test-utils';
 import { BrowserRouter } from 'react-router-dom';
 
-import Backend from '../pages/Backend';
+import Backend from '../components/Progress/Backend';
 
 describe('Given a Backend component', () => {
   let container = null;
@@ -20,7 +20,7 @@ describe('Given a Backend component', () => {
   });
 
   describe('When it is invoked', () => {
-    test('Then there should be a backend__container section', () => {
+    test('Then there should be a main-container__progress section', () => {
       act(() => {
         render(
           <BrowserRouter>
@@ -30,7 +30,7 @@ describe('Given a Backend component', () => {
         );
       });
 
-      const section = document.querySelector('.backend__container');
+      const section = document.querySelector('.main-container__progress');
 
       expect(section).toBeTruthy();
     });

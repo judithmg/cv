@@ -3,7 +3,7 @@ import { render, unmountComponentAtNode } from 'react-dom';
 import { act } from 'react-dom/test-utils';
 import { BrowserRouter } from 'react-router-dom';
 
-import PreviousExperience from '../pages/PreviousExperience';
+import PreviousExperience from '../components/PreviousExperience/PreviousExperience';
 
 describe('Given a PreviousExperience component', () => {
   let container = null;

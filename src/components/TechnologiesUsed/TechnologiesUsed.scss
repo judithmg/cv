@@ -1,0 +1,13 @@
+@import "src/styles/index";
+
+.technologies__container {
+  .technologies__imgs {
+    @include flex(row, center, center);
+    margin: 0 25%;
+    flex-wrap: wrap;
+    img {
+      width: 60px;
+      margin: 10px;
+    }
+  }
+}

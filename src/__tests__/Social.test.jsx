@@ -3,7 +3,7 @@ import { render, unmountComponentAtNode } from 'react-dom';
 import { act } from 'react-dom/test-utils';
 import { BrowserRouter } from 'react-router-dom';
 
-import Social from '../pages/Social';
+import Social from '../components/Aside/Social';
 
 describe('Given a Social component', () => {
   let container = null;

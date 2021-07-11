@@ -1,0 +1,14 @@
+@import "src/styles/index";
+
+.hello-world__container {
+  margin-top: 50px;
+
+  img {
+    @include jumping-animation;
+  }
+
+  @include flex(row, center, center);
+  .hello-world__text {
+    width: 50%;
+  }
+}

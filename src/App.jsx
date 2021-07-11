@@ -1,5 +1,5 @@
-import './styles/scss/App.scss';
-import './styles/scss/PressStart.scss';
+import './styles/App.scss';
+import './styles/PressStart.scss';
 import React, { useState } from 'react';
 
 import Main from './pages/Main';

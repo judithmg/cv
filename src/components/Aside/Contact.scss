@@ -1,0 +1,13 @@
+@import "src/styles/index";
+
+.contact__info {
+  @include flex(column, center, center);
+
+  span {
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+  button {
+    font-size: 15px;
+  }
+}

@@ -3,7 +3,7 @@ import { render, unmountComponentAtNode } from 'react-dom';
 import { act } from 'react-dom/test-utils';
 import { BrowserRouter } from 'react-router-dom';
 
-import HelloWorld from '../pages/HelloWorld';
+import HelloWorld from '../components/HelloWorld';
 
 describe('Given a HelloWorld component', () => {
   let container = null;
