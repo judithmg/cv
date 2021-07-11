@@ -2,7 +2,7 @@
 /* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
 import React from 'react';
 import Modal from './Modal';
-import useModal from '../assets/useModal';
+import useModal from '../../assets/useModal';
 
 export default function ProjectInfo({ project }) {
   const { isShowing, toggle } = useModal();

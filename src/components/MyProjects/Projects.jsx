@@ -1,7 +1,7 @@
 import React from 'react';
 
-import '../styles/scss/Projects.scss';
-import projectData from '../constants/projects-data';
+import './Projects.scss';
+import projectData from '../../constants/projects-data';
 import ProjectInfo from './ProjectInfo';
 
 export default function Projects() {

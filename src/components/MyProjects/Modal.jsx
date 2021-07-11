@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import '../styles/scss/Modal.scss';
+import './Modal.scss';
 
 const Modal = ({ isShowing, hide, project }) => (isShowing ? ReactDOM.createPortal(
   <>

@@ -4,7 +4,7 @@ import '../styles/scss/Main.scss';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-import HelloWorld from './HelloWorld';
+import HelloWorld from '../components/HelloWorld';
 import Contact from './Contact';
 import TechnologiesUsed from './TechnologiesUsed';
 import Social from './Social';
@@ -13,7 +13,7 @@ import PreviousExperience from './PreviousExperience';
 import Frontend from '../components/Progress/Frontend';
 import Backend from '../components/Progress/Backend';
 import Currently from './Currently';
-import Projects from './Projects';
+import Projects from '../components/MyProjects/Projects';
 
 import Footer from './Footer';
 
