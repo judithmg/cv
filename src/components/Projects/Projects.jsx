@@ -1,8 +1,9 @@
+import './Projects.scss';
+
 import React from 'react';
 
-import './Projects.scss';
 import projectData from '../../constants/projects-data';
-import ProjectInfo from './ProjectInfo';
+import ProjectInfo from '../../pages/ProjectInfo';
 
 export default function Projects() {
   return (
