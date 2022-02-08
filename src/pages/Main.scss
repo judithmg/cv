@@ -1,14 +1,14 @@
 @import "src/styles/index";
 
-.main-box {
-  margin: 100px 20px;
-}
 .--left {
   top: auto;
   position: static;
   .main-box {
-    margin: 100px 20px;
+    margin: 20px;
   }
+}
+.main-box {
+  margin: 20px;
 }
 
 @media screen and (min-width: 800px) {

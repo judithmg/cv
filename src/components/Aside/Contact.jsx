@@ -1,5 +1,6 @@
-import React from 'react';
 import './Contact.scss';
+
+import React from 'react';
 
 export default function Contact() {
   return (
@@ -8,7 +9,6 @@ export default function Contact() {
       <p className="title">Contact</p>
 
       <div className="contact__info">
-        <span>jmartigo33@gmail.com</span>
         <a href="mailto:jmartigo33@gmail.com">
           <p className="nes-badge is-splited">
             <span className="is-warning">mail</span>

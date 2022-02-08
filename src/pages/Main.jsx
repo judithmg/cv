@@ -1,23 +1,19 @@
-import React from 'react';
 import './Main.scss';
-
-import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-import HelloWorld from '../components/HelloWorld';
-import Social from '../components/Aside/Social';
+import AOS from 'aos';
+import React from 'react';
+
 import Contact from '../components/Aside/Contact';
-import TechnologiesUsed from '../components/TechnologiesUsed/TechnologiesUsed';
-
-import PreviousExperience from '../components/PreviousExperience/PreviousExperience';
-import Frontend from '../components/Progress/Frontend';
-import Backend from '../components/Progress/Backend';
+import Social from '../components/Aside/Social';
 import Currently from '../components/Currently/Currently';
-import Education from '../components/Education/Education';
-import Projects from '../components/MyProjects/Projects';
-
-import Footer from '../components/Footer/Footer';
 import DevExperience from '../components/DevExperience/DevExperience';
+import Education from '../components/Education/Education';
+import Footer from '../components/Footer/Footer';
+import HelloWorld from '../components/HelloWorld';
+import PreviousExperience from '../components/PreviousExperience/PreviousExperience';
+import Projects from '../components/Projects/Projects';
+import TechnologiesUsed from '../components/TechnologiesUsed/TechnologiesUsed';
 
 AOS.init();
 
@@ -34,8 +30,6 @@ function MainComponent() {
           </div>
 
           <div className="main__column --right">
-            <Frontend />
-            <Backend />
             <TechnologiesUsed />
             <DevExperience />
             <Education />
