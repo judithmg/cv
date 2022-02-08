@@ -1,5 +1,6 @@
-import React from 'react';
 import './TechnologiesUsed.scss';
+
+import React from 'react';
 
 export default function TechnologiesUsed() {
   return (
@@ -7,7 +8,11 @@ export default function TechnologiesUsed() {
       className="nes-container with-title main-box technologies__container"
       data-aos="fade-in"
     >
-      <p className="title">Technologies learnt</p>
+      <p className="title">
+        I
+        {' '}
+        {'<3'}
+      </p>
       <div className="technologies__imgs">
         <img
           width="44px"
